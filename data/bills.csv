@@ -1,0 +1,4 @@
+bill_id,date,product,quantity,price,subtotal,tax,total,customer
+ABC12345,2023-10-01 10:00,Product A,2,100.0,200.0,10.0,210.0,John Doe
+ABC12346,2023-10-01 10:30,Product B,1,200.0,200.0,10.0,210.0,Jane Smith
+C8848EC9,2025-06-27 21:57,Product A,5,100.0,500.0,25.0,525.0,abhay

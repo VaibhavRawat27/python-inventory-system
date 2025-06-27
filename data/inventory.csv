@@ -1,0 +1,5 @@
+product_id,name,quantity,price,min_stock
+1,Product A,95,100.0,5
+2,Product B,10,200.0,5
+3,Product C,0,150.0,5
+4,Product D,20,300.0,5
