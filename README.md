@@ -37,6 +37,7 @@ SmartInventoryPro/
 │   ├── transactions.csv    # Sales transactions log
 │   ├── bills.csv           # Bill data
 ├── README.md               # This file
+├── assets/                 # This contains screenhots of the software
 ```
 
 ---
@@ -80,9 +81,23 @@ python main.py
 
 ## 🧪 Screenshots
 
-| 📊 Dashboard                    | 💸 Billing UI                      |
-|----------------------------------|------------------------------------|
-| *(Add screenshots in `/assets`)* | *(Add screenshots in `/assets`)*  |
+### 📊 Dashboard
+![Dashboard](assets/dashboard.png)
+
+---
+
+### 📈 Charts & Insights
+![Charts](assets/Charts.png)
+
+---
+
+### 🧾 Billing Interface
+![Billing](assets/Bill.png)
+
+---
+
+### 📦 Stock & Low Inventory Alerts
+![Stock](assets/stock.png)
 
 ---
 
