@@ -559,7 +559,7 @@ def print_receipt(content):
 # Main Application
 # ==============================================
 root = tk.Tk()
-root.title("SmartInventory Pro")
+root.title("Python Inventory System")
 root.geometry("800x700")
 root.configure(bg="#f5f5f5")
 
@@ -576,7 +576,7 @@ style.configure("Header.TLabel", font=("Arial", 14, "bold"))
 header_frame = ttk.Frame(root, padding=10)
 header_frame.pack(fill="x")
 
-ttk.Label(header_frame, text="SmartInventory Pro", style="Header.TLabel").pack(side="left")
+ttk.Label(header_frame, text="Python Inventory System", style="Header.TLabel").pack(side="left")
 ttk.Label(header_frame, text=f"Date: {datetime.today().strftime('%Y-%m-%d')}", 
           style="TLabel").pack(side="right")
 
@@ -651,7 +651,7 @@ ttk.Button(chart_frame, text="Export Report", command=export_report).pack(side="
 footer_frame = ttk.Frame(root, padding=10)
 footer_frame.pack(fill="x", side="bottom")
 
-ttk.Label(footer_frame, text=f"© {datetime.today().year} SmartInventory Pro", 
+ttk.Label(footer_frame, text=f"© {datetime.today().year} Python Inventory System", 
           style="TLabel").pack(side="right")
 
 # Initial setup
